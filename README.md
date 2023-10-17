@@ -106,7 +106,7 @@ To use the app, open your web browser and navigate to `http://localhost:2500`. S
 - **POST /api/v1/categories:** Create a new category.
 - **PUT /api/v1/categories/:id:** Update a category by ID.
 - **DELETE /api/v1/categories/:id:** Delete a category by ID.
-- **DELETE /api/v1/categories/:categoryID/tasks ** Delete aall tasks in a category by ID.
+- **DELETE /api/v1/categories/:categoryID/tasks** Delete aall tasks in a category by ID.
 
 ## Contributing
 

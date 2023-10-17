@@ -1,4 +1,4 @@
-# Project Name: HADCOVA Task Manager/Note App
+# HADCOVA Task Manager/Note App
 
 ## Table of Contents
 
@@ -50,7 +50,7 @@ This is a full-stack task manager and note-taking web application built with Rea
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/samojeyinka/hadcova-task-manager.git
    ```
 
 2. Navigate to the project directory:
@@ -98,14 +98,14 @@ To use the app, open your web browser and navigate to `http://localhost:2500`. S
 - **GET /api/v1/tasks:** Get a list of tasks.
 - **GET /api/v1/tasks/:id:** Get a specific task by ID.
 - **POST /api/v1/tasks:** Create a new task.
-- **PUT /api/v1/tasks/:id:** Update a task by ID.
+- **PATCH /api/v1/tasks/:id:** Update a task by ID.
 - **DELETE /api/v1/tasks/:id:** Delete a task by ID.
 
-- **GET /api/notes:** Get a list of notes.
-- **GET /api/notes/:id:** Get a specific note by ID.
-- **POST /api/notes:** Create a new note.
-- **PUT /api/notes/:id:** Update a note by ID.
-- **DELETE /api/notes/:id:** Delete a note by ID.
+- **GET /api/v1/categories:** Get a list of categories.
+- **GET /api/v1/categories/:id:** Get a specific category by ID.
+- **POST /api/v1/categories:** Create a new category.
+- **PUT /api/v1/categories/:id:** Update a category by ID.
+- **DELETE /api/v1/categories/:id:** Delete a category by ID.
 
 ## Contributing
 

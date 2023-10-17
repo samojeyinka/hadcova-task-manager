@@ -106,6 +106,7 @@ To use the app, open your web browser and navigate to `http://localhost:2500`. S
 - **POST /api/v1/categories:** Create a new category.
 - **PUT /api/v1/categories/:id:** Update a category by ID.
 - **DELETE /api/v1/categories/:id:** Delete a category by ID.
+- **DELETE /api/v1/categories/:categoryID/tasks ** Delete aall tasks in a category by ID.
 
 ## Contributing
 
@@ -113,7 +114,7 @@ If you'd like to contribute to this project, feel free to open issues, submit pu
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute this software as long as you include the original copyright notice and disclaimers.
+You are free to use, modify, and distribute this software as long as you include the original copyright notice and disclaimers.
 
 ---
 
